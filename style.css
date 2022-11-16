@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(59, 58, 58);
+}
+
+header{
+    /* padding:20px 0; */
+}
+
+
+img{
+    width: 15em;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.container{
+    
+    padding: 30px;
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    height: 830px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    
+    
+}
+
+.box{
+    width: 150px;
+    height: 400px;
+    background-color: rgb(235, 12, 12);
+    border: 1px solid black;
+    filter: grayscale(.9);
+    
+    
+}
+
+.box-1{
+     width: 150px;
+     height: 300px;
+     background-color: red;
+     border: 1px solid black;
+     flex-basis: 120px;
+     background-image:url(https://i.pinimg.com/236x/3f/13/ec/3f13eceac845ddd3a1535de457cc9466.jpg) ;
+     background-size: cover;
+     background-position-x: center;
+     
+     
+   
+}
+
+.box-2{
+    width: 150px;
+    height: 600px;
+    background-color: red;
+    border: 1px solid black;
+    align-self: flex-end;
+    background-image: url(https://i.pinimg.com/474x/f6/d8/9c/f6d89c74f309c416d91607d5b2baa082.jpg);
+    background-size: cover;
+    
+    
+}
+
+.box-3{
+    width: 150px;
+    height: 250px;
+    background-color: red;
+    border: 1px solid black;
+    flex-basis: 80px;
+    background-image: url(https://image.winudf.com/v2/image/Y29tLmJlcnJlYW13YWxsaW5jLnNwaWRlcm1hbndhbGxwYXBlcmhkX3NjcmVlbl8wXzE1MjQyMjg2NDdfMDA0/screen-0.jpg?fakeurl=1&type=.webp);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.box-4{
+    width: 150px;
+    height: 450px;
+    background-color: red;
+    border: 1px solid black;
+    align-self: flex-start;
+    background-image: url(https://images6.alphacoders.com/102/thumb-1920-1020775.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.box-5{
+    width: 150px;
+    height: 700px;
+    background-color: red;
+    border: 1px solid black;
+    background-image: url(https://b-static.besthdwallpaper.com/no-way-home-spiderman-wallpaper-1920x1080-90238_48.jpg);
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+.box-6{
+    width: 150px;
+    height: 300px;
+    background-color: red;
+    border: 1px solid black;
+    background-image: url(https://images6.alphacoders.com/114/1145354.jpg);
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+.box-7{
+    width: 150px;
+    height: 600px;
+    background-color: red;
+    border: 1px solid black;
+    flex-basis: 80px;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1440/1201/The_Amazing_Spider_Man_2012_HD_Movie_Wallpaper_1920x1440.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.box-8{
+    width: 150px;
+    height: 250px;
+    background-color: red;
+    border: 1px solid black;
+    flex-basis: 105px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/183/299/709/movie-symbiote-spider-man-3-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.box-9{
+    width: 150px;
+    height: 450px;
+    background-color: red;
+    border: 1px solid black;
+    flex-basis: 200px;
+    align-self: flex-start;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/190/331/577/spider-man-spider-man-ps4-marvel-comics-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+.box-10{
+    width: 150px;
+    height: 700px;
+    background-color: red;
+    border: 1px solid black;
+    order: ;
+    flex-basis: 250px;
+    background-image: url(https://i.pinimg.com/736x/20/17/82/201782d1470bc41c073814331dec2c63.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
